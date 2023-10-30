@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <style>
+        #header{
+            text-align: center;
+            font-style: normal;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border: 3px solid black;
+            margin-left: 550px;
+            margin-right: 550px;
+            padding: 10px;
+            background-color: aliceblue;
+        }
+        #flable1{
+            text-align: start;
+            margin-left: 50px;
+            /* margin-right: 30px; */
+            font-size: 20px;
+            
+        }
+        /* #llable{
+            text-align: start;
+        } */
+        #course{
+            text-align: start;
+            margin-left: 50px;
+            font-size: 20;
+        }
+        #admission{
+            text-align: initial;
+            margin-left: 50px;
+        }
+        #form{
+            border: 5px solid black;
+            margin-top: 20px;
+            background-color: lightgray;
+        }
+        #Gender{
+              margin-left: 50px;  
+            /* margin-right: 30px; */
+            /* margin-trim: 50px; */
+            /* text-align: justify;
+            margin-inline-start: 50px;
+            /* margin-block: 50px; */
+        }  
+        /* #female{
+            text-align: start;
+            margin-right: 50px;
+
+        } */
+        /* #other
+        {
+            margin-left: 50px;
+            
+        } */
+        #dob1{
+            margin-left: 60px;
+        }
+        #Genral
+        {
+            margin-left: 50px;
+
+        }
+        #contact
+        {
+            margin-left: 50px;
+
+        }
+        #alternate
+        {
+            margin-left: 50px;
+        }
+        #mail
+        {
+            margin-left: 50px;
+        }
+        #caddress
+        {
+            margin-left: 50px;
+
+        }
+        #paddress
+        {
+            margin-left: 50px;
+        }
+        #fnamef
+        {
+            margin-left: 50px;
+        }
+        #fcontact
+        {
+            margin-left: 50px;
+        }
+        #mname
+        {
+            margin-left: 50px;
+        }
+        #mcontact
+        {
+            margin-left: 50px;
+        }
+        #econtact
+        {
+            margin-left: 50px;
+        }
+        #emobile
+        {
+            margin-left: 50px;
+        }
+        #hostel
+        {
+            margin-left: 50px;
+        }
+        /* #hostel1
+        {
+            margin-left: 50px;
+        } */
+        #p
+        {
+            margin-left: 50px;
+        }
+        #names
+        {
+            margin-left: 50px;
+        }
+        #submit
+        {
+            margin-left: 50px;
+        }
+        #textarea
+        {
+            margin-left: 50px;
+        }
+
+
+    </style>
+</head>
+<body>
+<h1 id="header">Hostel Registration Form</h1>
+<form id="form">
+<h3>Personal Details</h3>
+<label id="flable1" for="fName">Student Name</label>
+<input id="fName" type="text" name="Name" placeholder="First Name">
+<label id="llable" for="lName"></label>
+<input id="lName" type="text" name="Name" placeholder="Last Name">
+<br>
+<br>
+<label id="course" for="Course">Course</label>
+<input id="Course" type="text" name="course">
+<label id="admission" for="admission">Admission No.</label>
+<input id="admission" type="text" name="Admission">
+<br>
+<br>
+<label id="Gender" for="male">Gender - Male</label>
+<input id="male" type="radio" name="Gender">
+<label id="female" for="female">Female</label>
+<input id="female" type="radio" name="Gender">
+<label id="other" for="other">Other</label>
+<input id="other" type="radio" name="Gender">
+<label id="dob1" for="dob">DOB</label>
+<input id="dob" type="date">
+<br>
+<br>
+<label id="Genral" for="general">Category - General</label>
+<input id="general" type="radio" name="category">
+<label for="obc">OBC</label>
+<input id="obc" type="radio" name="category">
+<label for="sc">SC/ST</label>
+<input id="sc" type="radio" name="category">
+<label for="other1">Other</label>
+<input id="other1" type="radio" name="category">
+<br>
+<br>
+<lable id="contact" for="mobile">Contact No.</lable>
+<input id="mobile" type="number">
+<label id="alternate" for="mobile1">Alternate No.</label>
+<input id="mobile1" type="number">
+<br>
+<br>
+<label id="mail" for="email">Email i'd</label>
+<input id="email" type="email">
+<br>
+<h3>Current Address</h3>
+<label id="caddress" for="address">Address</label>
+<input id="address" type="text" >
+<label for="pin">Pin Code</label>
+<input id="pin" type="number" >
+<label for="dist">District</label>
+<input id="dist" type="text" >
+<label for="state">State</label>
+<input id="state" type="text" >
+<br>
+<br>
+<h3>Parmanent Address</h3>
+<label id="paddress" for="address1">Address</label>
+<input id="address1" type="text" >
+<label for="pin1">Pin Code</label>
+<input id="pin1" type="number" >
+<label for="dist1">District</label>
+<input id="dist1" type="text" >
+<label for="state1">State</label>
+<input id="state1" type="text" >
+<br>
+<hr>
+<br>
+
+<lable id="fnamef" for="fnamef">Father's Name</lable>
+<input id="fnamef" type="text" placeholder="First Name">
+<lable for="lnamef"></lable>
+<input id="lnamef" type="text" placeholder="Last Name">
+
+<br>
+<br>
+<label id="fcontact" for="mobile2">Contact No.</label>
+<input id="mobile2" type="number">
+<br>
+<br>
+<label id="mname" for="fnamem">Mother's Name </label>
+<input id="fnamem" type="text" placeholder="First Name">
+<label for="lmother"></label>
+<input id="lmother" type="text" placeholder="Last Name">
+<br>
+<br>
+<label id="mcontact" for="mobile3">Contact No.</label>
+<input id="mobile3" type="number">
+<br>
+<br>
+<hr>
+<h2>Emergency Contact Details </h2>
+<label id="econtact" for="Name">Name</label>
+<input id="Name" type="text" required placeholder="Full Name">
+<lable for="relation">Relation</lable>
+<input id="relation" type="text">
+<br>
+<br>
+<label id="emobile" for="mobile4">Contact No.</label>
+<input id="mobile4" type="number">
+<label for="mobile5">Alternate No.</label>
+<input id="mobile5" type="number">
+<br>
+<br>
+<hr>
+<h3>Hostel Details</h3>
+    <span id="hostel"> Hostel Type (Select only one) :  </span>
+<label id="hostel1" for="hostel1">1 Seater</label>
+<input id="hostel1" type="checkbox" name="Hostel">
+<label for="hostel2">2 Seater</label>
+<input id="hostel2" type="checkbox" name="Hostel">
+<label for="hostel3">3 Seater</label>
+<input id="hostel3" type="checkbox" name="Hostel">
+<br>
+<br>
+<hr>
+<h2>Declration</h2>
+<p id="p"> I am <input> decleare that all the information given by me is right.</p>
+<br>
+<br>
+
+<!--    <label for="fpname">Father/Parent Name</label>-->
+<!--<input id="fpname" type="text">-->
+<label id="names" for="sname">Studen +t Name</label>
+<input id="sname" type="text">
+<br>
+<br>
+    <br>
+    <textarea id="textarea" cols="40" rows="10" required></textarea>
+    <br>
+    <input id="submit" type="submit">
+<input type="reset">
+    <!-- <textarea cols="5" rows="30" required></textarea> -->
+
+</form>
+
+</body>
+</html>
+
